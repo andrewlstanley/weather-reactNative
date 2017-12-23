@@ -1,11 +1,11 @@
 import React, {Component} from 'react'
 import {StyleSheet, Text, View, TextInput} from 'react-native'
-import Forecast from 'Forecast'
+import Forecast from './Forecast'
 
 class WeatherProject extends Component {
   constructor(props) {
     super(props);
-    this.state={ zip: " " }
+    this.state={ zip: " ", forecast: null }
   }
 
   _handleTextChange = event => {

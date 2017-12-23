@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
   container: { height: 130 },
   bigText: {
     flex: 2,
-    frontSize: 20,
+    fontSize: 20,
     textAlign: 'center',
     margin: 10,
     color: '#FFFFFF'
